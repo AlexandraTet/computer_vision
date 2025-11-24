@@ -39,7 +39,7 @@ print('Test loss:', test_lost)
 print('Test accuracy:', test_accuracy)
 
 class_name = ['cars', 'cats', 'dogs']
-img = image.load_img('images/', target_size=(128, 128))
+img = image.load_img('images/cat.jpg', target_size=(128, 128))
 img_array = image.img_to_array(img)
 
 # normalization
